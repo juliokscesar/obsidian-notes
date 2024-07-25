@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "999d5de566e8a4c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "da7cc00532e8776d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a5a95b2b1cd6894",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cursos/OpenGL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ddf8fc6bf52aaed9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a625e6a15a98571",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ae06e93c98bac19",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ef6d9afbaad3aac2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6364e4bdaf64312e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "70b7ae11049ea06f",
+    "type": "split",
+    "children": [
+      {
+        "id": "22364626ba635fb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c94346ba21353544",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cursos/OpenGL.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0aeae09810831cf8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Cursos/OpenGL.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8921ffa52a7939d1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ffd6d4de02f1e3fa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cursos/OpenGL.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4a5a95b2b1cd6894",
+  "lastOpenFiles": [
+    "Pasted image 20240725111058.png",
+    "Pasted image 20240725104442.png",
+    "Anotações de Leitura/Statistical Learning and ML.md",
+    "Pasted image 20240723193656.png",
+    "Pasted image 20240723193243.png",
+    "Anotações de Leitura/imgs/Pasted image 20240723103907.png",
+    "Anotações de Leitura/imgs",
+    "Cursos/imgs/Pasted image 20240630193440.png",
+    "Anotações de Leitura/imgs/Pasted image 20240723193028.png",
+    "Cursos/imgs/Pasted image 20240720152053.png",
+    "Cursos/imgs/Pasted image 20240720150442.png",
+    "Cursos/imgs/Pasted image 20240720145921.png",
+    "Cursos/imgs/Pasted image 20240720145424.png",
+    "Anotações de Leitura/Algoritmos/Introduction to Algorithms_Grokking Algorithms.md",
+    "Anotações de Leitura/AI_ML/Free Notes.md",
+    "Anotações de Leitura/Algoritmos",
+    "Anotações de Leitura/AI_ML/Hands On Machine Learning.md",
+    "Cursos/OpenGL.md",
+    "Anotações de Leitura/AI_ML",
+    "Cursos/Fortran 77.md",
+    "Anotações de Leitura/Effective Modern C++.md",
+    "Notas de aula/C lculo III.md",
+    "Notas de aula/Introdução à Física Matemática.md",
+    "Notas de aula/IntroFisMat P3.md",
+    "Cursos/imgs",
+    "Notas de aula/Vibrações e Ondas.md",
+    "Cursos",
+    "Anotações de Leitura",
+    "Notas de aula/P3 F¡sica III.md",
+    "Notas de aula/P2 F¡sica III.md",
+    "Notas de aula/Mapear campo eltrico em python.md",
+    "Ideias de Video/00.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Untitled 2.md",
+    "Notas de aula/a.md",
+    "Notas de aula/P3 Física III.md",
+    "Notas de aula/P2 Física III.md",
+    "Notas de aula/Cálculo III.md",
+    "Notas de aula/Mapear campo elétrico em python.md",
+    "Ideias de Video",
+    "Notas de aula/imgs",
+    "Untitled 1",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Notas de aula"
+  ]
+}
