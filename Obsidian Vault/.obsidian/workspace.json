@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cursos/OpenGL.md",
+                "file": "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cursos/OpenGL.md",
+                "file": "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cursos/OpenGL.md",
+                "file": "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cursos/OpenGL.md"
+                "file": "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md"
               }
             }
           }
@@ -149,12 +149,12 @@
   },
   "active": "37f07db12730b647",
   "lastOpenFiles": [
-    "Cursos/Fortran 77.md",
     "AnotcaoesLeitura/AI_ML/Hands On Machine Learning.md",
     "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
+    "Cursos/OpenGL.md",
+    "Cursos/Fortran 77.md",
     "AnotcaoesLeitura/AI_ML/Free Notes.md",
     "Cursos/imgs/Pasted image 20240725111058.png",
-    "Cursos/OpenGL.md",
     "Notas de aula/P2 Fнsica III.md",
     "Notas de aula/VibracoesOndas.md",
     "Notas de aula/IntroFisMat.md"

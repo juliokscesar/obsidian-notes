@@ -57,7 +57,31 @@ where $E(Y-\hat{Y})^2$ represents the average, or *expected value*, of the squar
 
 When the interest is to understand te association between $Y$ and $X_1, ..., X_p$, we wish to estimate $f$ but the goal is not necessarily to make predictions for $Y$. Now $\hat{f}$ cannot be treated as a black box, because the objective is to know its exact form.
 These are some of questions to answer in this case:
-- *Which predictors are associated with the response?*
-- *What is the relationship between the response and each predictor?*
+- *Which predictors are associated with the response?* - Usually there's a chance that only a small fraction of the available predictors are substantially associated with $Y$.
+
+- *What is the relationship between the response and each predictor?* - Some predictors may have a positive relationship with $Y$, while others the opposite.
+
 - *Can the relationship between $Y$ and each predictor be summarized in a linear equation? Or is it more complex?*
 
+
+# Methods of estimating $f$
+## Training data
+First we always assume we have observed a set of $n$ different data points. These observations are called the *training data* because we use it to train, or teach, our method how to estimate $f$:
+Let $x_{ij}$ represent the value of the $j$th input, or predictor, for observation $i$, where $i = 1,2,...,n$ and $j=1,2,...,p$. Let $y_i$ represent the response variable for the $i$th observation. Then our training data consists of ${(x_1, y_1), (x_2, y_2), ..., (x_n, y_n)}$ where $x_i = (x_{i1}, x_{i2}, ..., x_{ip})^T$.
+
+The goal is to apply a statistical learning method to the training data in order to estimate the unknown function $f$, e.g., find a function $\hat{f}$ such that $Y \approx \hat{f}(X)$ for any observation $(X, Y)$. 
+
+Most statistical learning methods for this task can be characterized as either *parametric* or *non-parametric*.
+
+## Parametric Methods
+Involve a two-step model-based approach.
+1. First, we make an assumption about the functional form, or shape, of $f$. For example, making a simple assumption that $f$ is linear in $X$:
+$$
+f(X) = \beta_0 + \beta_1 X_1 + +\beta_2 X_2 + ...  \beta_p X_p
+$$
+	This is a *linear model*.
+
+2. Then, after a model has been chosen, we need a procedure that uses the training data to *fit* or *train* the model. In the case of the *linear model*, we need to estimate the parameters $\beta_0, ..., \beta_p$. That is, find the values for $\beta$ such that:
+$$
+
+$$
