@@ -1,3 +1,5 @@
+page: 30
+
 ## Books used
 An Introduction to Statistical Learning
 Hands on Machine Learning
@@ -50,3 +52,12 @@ E(Y-\hat{Y})^2 &= E[f(X) + \epsilon - \hat{f}(X)]^2 \\
 \end{align}
 $$
 where $E(Y-\hat{Y})^2$ represents the average, or *expected value*, of the squared difference between the predicted and actual value of $Y$ which introduces the reducible error, and $\mathrm{Var}(\epsilon)$ represents the *variance* associated with the error term $\epsilon$, which gives the irreducible error.
+
+# Inference
+
+When the interest is to understand te association between $Y$ and $X_1, ..., X_p$, we wish to estimate $f$ but the goal is not necessarily to make predictions for $Y$. Now $\hat{f}$ cannot be treated as a black box, because the objective is to know its exact form.
+These are some of questions to answer in this case:
+- *Which predictors are associated with the response?*
+- *What is the relationship between the response and each predictor?*
+- *Can the relationship between $Y$ and each predictor be summarized in a linear equation? Or is it more complex?*
+
