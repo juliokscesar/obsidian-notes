@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "67db09c9ec0d562a",
+        "id": "3f77c912d2779413",
         "type": "tabs",
         "children": [
           {
-            "id": "37f07db12730b647",
+            "id": "8c5133e84443cc17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
+                "file": "Notas de aula/SEM2_2024/Fisica 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7f96e48a6b08cf83",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
+                "file": "Notas de aula/SEM2_2024/Fisica 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
+                "file": "Notas de aula/SEM2_2024/Fisica 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md"
+                "file": "Notas de aula/SEM2_2024/Fisica 4.md"
               }
             }
           }
@@ -147,16 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37f07db12730b647",
+  "active": "8c5133e84443cc17",
   "lastOpenFiles": [
-    "AnotcaoesLeitura/AI_ML/Hands On Machine Learning.md",
+    "Notas de aula/SEM1_2024/P3 Fнsica III.md",
+    "Notas de aula/SEM2_2024/Fisica 4.md",
+    "Notas de aula/SEM1_2024/Cаlculo III.md",
+    "Notas de aula/SEM1_2024/IntroFisMat.md",
+    "Notas de aula/SEM1_2024/C lculo III.md",
+    "Notas de aula/SEM2_2024/Mecanica Classica A.md",
+    "Notas de aula/SEM2_2024",
     "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
+    "Notas de aula/SEM1_2024",
+    "AnotcaoesLeitura/AI_ML/Hands On Machine Learning.md",
     "Cursos/OpenGL.md",
     "Cursos/Fortran 77.md",
     "AnotcaoesLeitura/AI_ML/Free Notes.md",
     "Cursos/imgs/Pasted image 20240725111058.png",
-    "Notas de aula/P2 Fнsica III.md",
-    "Notas de aula/VibracoesOndas.md",
-    "Notas de aula/IntroFisMat.md"
+    "Notas de aula/SEM1_2024/P2 Fнsica III.md",
+    "Notas de aula/SEM1_2024/VibracoesOndas.md"
   ]
 }
