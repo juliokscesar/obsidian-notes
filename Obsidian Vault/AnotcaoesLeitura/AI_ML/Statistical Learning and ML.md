@@ -83,5 +83,50 @@ $$
 
 2. Then, after a model has been chosen, we need a procedure that uses the training data to *fit* or *train* the model. In the case of the *linear model*, we need to estimate the parameters $\beta_0, ..., \beta_p$. That is, find the values for $\beta$ such that:
 $$
-
+Y \approx \beta_0 + \beta_1 X_1 + \beta_2 X_2 + ... + \beta_p X_p
 $$
+The most common approach to fitting the model is referred to as *(ordinary) least squares*.
+
+The potential disadvantage of a parametric approach is that the model we choose will usually not match the true unknown form of $f$. If the chosen model is too far from the true $f$, the estimate will be poor. We can try to address this problem by choosing *flexible models* that can fit many different possible functional forms for $f$. 
+These more complex models require estimating a greater number of parameters, which can lead to a phenomenon known as *overfitting* the data, which essentially means that they follow the errors, or noise, too closely.
+
+## Non-Parametric methods
+Non-parametric methods do not make explicit assumptions about the functional form of $f$. They seek an estimate of $f$ that gets as close as possible to the data points.
+The major advantage is that they have the potential to accurately fit a wider range of possible shapes for $f$.
+
+But non-parametric approaches requires a very large number of observations (far more than is typically needed by parametric approach) is required in order to obtain an accurate estimate for $f$.
+
+
+Tradeoff between flexibility and interpretability, using different statistical learning methods:
+![[Pasted image 20240806171611.png]]
+\*flexibility in the sense that the higher the flexibility the wider the range of forms for $f$ is generated.
+
+Very flexible models can lead to such complicated estimates of $f$ that it is difficult to understand how any individual predictor is associated with the response. Using a more restrictive method (such as linear model) makes it easy to understand the relationship between the predictor and the response.
+
+## Supervised and Unsupervised Learning
+### Supervised Learning
+For each observation of the predictor measurement(s) $x_i$, $i = 1,...,n$, there is an associated response measurement $y_i$, which helps us *supervise* the accuracy of the prediction of future observations using our model.
+
+### Unsupervised Learning
+In this case there is no associated response $y_i$ for a vector of measurements $x_i$. One possible analysis in this case is to understand the relationships between the variables or between the observations. One statistical learning tool for this setting is *cluster analysis*, or clustering.
+The goal of cluster analysis is to ascertain, on the basis of $x_1, ..., x_n$ whether the observations fall into relatively distinct groups.
+
+### Regression versus Classification problems
+Problems with a quantitative response are often referred to as *regression* problems. While those with qualitative response are *classification* problems.
+There are some exceptions, such as *logistic regression* (a classification method) that it usually used with a qualitative (two-class, or binary) response.
+
+## Assessing model accuracy
+It is a very important task to decide for any given data set which statistical learning method produces the best results.
+### Measuring the Quality of the Fit
+In order to evaluate the performance of a statistical learning method on a given data set, we need to measure how well its predictions actually match the observed data.
+
+In the regression setting, the most commonly-used measure is the *mean squared error* (MSE) given by
+$$
+MSE = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{f}(x_i))^2
+$$
+since the MSE is computed using the training data that was used to fit the model, this should be more accurately referred to as the *training MSE*.
+
+For a given data set of predictors and responses $\{(x_1, y_1), ..., (x_n, y_n)\}$, we are not really interested in whether $\hat{f(x_i)} \approx y_i$, instead we want to know whether $\hat{f(x_0)} \approx y_0$, where $(x_0, y_0)$ is a *previously unseen test observation* NOT used to train the statistical learning method. So we want to use the method that gives the lowest *test MSE*, as opposed to the lowest *training MSE*.
+In some settings we may have a test data set available, and then we can simply evaluate on the test observations, and select the learning method for which the test MSE is smallest.
+
+When a given method yields a small training MSE but a large test MSE, we are *overfitting* the data. This happens because our statistical learning procedure is working too hard to find patterns that are just caused by random chance rather than by true properties of the unknown function $f$.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notas de aula/SEM2_2024/Fisica 4.md",
+                "file": "Notas de aula/SEM2_2024/Intro FisComp.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas de aula/SEM2_2024/Fisica 4.md",
+                "file": "Notas de aula/SEM2_2024/Intro FisComp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas de aula/SEM2_2024/Fisica 4.md",
+                "file": "Notas de aula/SEM2_2024/Intro FisComp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas de aula/SEM2_2024/Fisica 4.md"
+                "file": "Notas de aula/SEM2_2024/Intro FisComp.md"
               }
             }
           }
@@ -148,18 +148,20 @@
   },
   "active": "8c5133e84443cc17",
   "lastOpenFiles": [
-    "Notas de aula/SEM1_2024/P3 Fнsica III.md",
+    "AnotcaoesLeitura/imgs/Pasted image 20240806171611.png",
+    "Notas de aula/SEM2_2024/Intro FisComp.md",
+    "Cursos/Fortran 77.md",
+    "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
     "Notas de aula/SEM2_2024/Fisica 4.md",
+    "Notas de aula/SEM1_2024/P3 Fнsica III.md",
     "Notas de aula/SEM1_2024/Cаlculo III.md",
     "Notas de aula/SEM1_2024/IntroFisMat.md",
     "Notas de aula/SEM1_2024/C lculo III.md",
     "Notas de aula/SEM2_2024/Mecanica Classica A.md",
     "Notas de aula/SEM2_2024",
-    "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
     "Notas de aula/SEM1_2024",
     "AnotcaoesLeitura/AI_ML/Hands On Machine Learning.md",
     "Cursos/OpenGL.md",
-    "Cursos/Fortran 77.md",
     "AnotcaoesLeitura/AI_ML/Free Notes.md",
     "Cursos/imgs/Pasted image 20240725111058.png",
     "Notas de aula/SEM1_2024/P2 Fнsica III.md",

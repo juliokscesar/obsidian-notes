@@ -161,3 +161,28 @@ endif
 ```
 
 # Loops
+*do-loop*. (Similar to for-loop):
+```fortran
+	integer i, n, step, sum
+
+c n is the maximum number for i in the loop (goes from 1 to n)
+c step is the increment (or decrement) in i. Like python, can be negative as well
+c Assuming n is assigned 5, and step 1 then i goes from 1 to 5 increasing 1 at a time
+
+	sum = 0
+	do 10 i = 1, n, step
+		sum = sum + i
+		write(*,*) 'i= ', i
+		write(*,*) 'sum= ', sum
+10	continue
+
+```
+This code prints the cumulative sums of integers from 1 to `n`.
+The number 10 is a *statement label*. Many loops and other statements require a label. Each label is assigned a unique number in each program (or subprogram). (Column positions 1-5 are reserved for statement labels)
+
+There is an `enddo` statement that allows us to omit the statement label since it won't be necessary. But it is not part of ANSI Fortran 77.
+
+*while-loop*
+```fortran
+
+```
