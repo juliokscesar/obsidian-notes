@@ -1,4 +1,4 @@
-page: 30
+page: 45 (the bayes classifier)
 
 ## Books used
 An Introduction to Statistical Learning
@@ -130,3 +130,37 @@ For a given data set of predictors and responses $\{(x_1, y_1), ..., (x_n, y_n)\
 In some settings we may have a test data set available, and then we can simply evaluate on the test observations, and select the learning method for which the test MSE is smallest.
 
 When a given method yields a small training MSE but a large test MSE, we are *overfitting* the data. This happens because our statistical learning procedure is working too hard to find patterns that are just caused by random chance rather than by true properties of the unknown function $f$.
+
+![[Pasted image 20240807222809.png]]
+
+On the right, both maximum MSE values are 1.0. As flexibility increases, MSE decreases, until flexibity is too high and both MSE start to increase again.
+
+
+*Bias-Variance*
+These approximations in the MSE curves are the result of two competing properties of statistical learning methods.
+The expected test MSE, for a given value $x_0$, can always be decomposed into the sum of three fundamental quantities: the *variance* of $\hat{f}(x_0)$, the squared *bias* of $\hat{f}(x_0)$ and the variance of the error $\epsilon$. That is
+$$
+expectedTestMSE= E(y_0 - \hat{f}(x_0))^2 = \mathrm{Var}(\hat{f}(x_0)) + [\mathrm{Bias}(\hat{f}(x_0))]^2 + \mathrm{Var}(\epsilon)
+$$
+
+So in order to minimize the expected test error, we need to select a statistical learning method that simultaneously achieves *low variance* and *low bias*. 
+- **Variance** refers to the amount by which $\hat{f}$ would change if we estimated it using a different training data set. Ideally, the estimate for $f$ should not vary too much between training sets. However, if a method has high variance then a small change in the data can result in large changes in $\hat{f}$. In general *more flexible statistical methods have higher variance*.
+- **Bias** refers to the error that is introduced by approximating a real-life problem, which may be extremely complicated, by a much simpler model. Generally, more flexible methods result in less bias.
+The relative rate of change of these two quantities determines whether the test MSE increases or decreases
+![[Pasted image 20240807224457.png]]
+
+This is referred to as ***bias-variance trade-off***. The challenge is to find a method for which both the variance and the squared bias are low.
+
+### The Classification setting
+Many of the concepts in regression, such as the bias-variance trade-off, transfer over.
+
+But as $y_i$ is qualitative now, we consider the *error rate*.
+Say we seek to estimate $f$ on the basis of training observations $(x_1, y_1), ..., (x_n, y_n)$ where $y_i$ is qualitative. The error rate is the proportion of mistakes that are made if we apply our estimate $\hat{f}$ to our training observations:
+$$
+\frac{1}{n} \sum_{i=1}^n I(y_i \neq \hat{y_i})
+$$
+$\hat{y}_i$ is the predicted class label and $I(y_i \neq \hat{y}_i)$ is an *indicator variable* (true=1, false=0).
+If $I$ is 0, then the $i$th observation was classified correctly, otherwise it was misclassified. 
+
+This is the *training error rate*. The same as before applies to *training* and *test* error rates. A good classifier, as well, is one for which the test error is smallest.
+

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "82577e47872f1197",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7f96e48a6b08cf83",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notas de aula/SEM2_2024/Intro FisComp.md",
+                "file": "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notas de aula/SEM2_2024/Intro FisComp.md",
+                "file": "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notas de aula/SEM2_2024/Intro FisComp.md"
+                "file": "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md"
               }
             }
           }
@@ -146,10 +160,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c5133e84443cc17",
+  "active": "82577e47872f1197",
   "lastOpenFiles": [
-    "AnotcaoesLeitura/imgs/Pasted image 20240806171611.png",
+    "Pasted image 20240807224457.png",
+    "Pasted image 20240807222809.png",
+    "Pasted image 20240807222752.png",
+    "PlantCountSCG.md",
     "Notas de aula/SEM2_2024/Intro FisComp.md",
+    "AnotcaoesLeitura/imgs/Pasted image 20240806171611.png",
     "Cursos/Fortran 77.md",
     "AnotcaoesLeitura/AI_ML/Statistical Learning and ML.md",
     "Notas de aula/SEM2_2024/Fisica 4.md",
